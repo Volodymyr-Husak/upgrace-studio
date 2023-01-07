@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.7acaea2f.css",
-    "main.js": "/react-homework-template/static/js/main.07d3183d.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.7acaea2f.css.map": "/react-homework-template/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/react-homework-template/static/js/main.07d3183d.js.map"
+    "main.css": "/upgrace-studio/static/css/main.7acaea2f.css",
+    "main.js": "/upgrace-studio/static/js/main.7e57fb93.js",
+    "static/js/865.395883c8.chunk.js": "/upgrace-studio/static/js/865.395883c8.chunk.js",
+    "index.html": "/upgrace-studio/index.html",
+    "main.7acaea2f.css.map": "/upgrace-studio/static/css/main.7acaea2f.css.map",
+    "main.7e57fb93.js.map": "/upgrace-studio/static/js/main.7e57fb93.js.map",
+    "865.395883c8.chunk.js.map": "/upgrace-studio/static/js/865.395883c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.7e57fb93.js"
   ]
 }
