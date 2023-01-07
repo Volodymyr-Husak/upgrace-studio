@@ -2,7 +2,12 @@ import { Route, Routes } from 'react-router-dom';
 import { lazy } from 'react';
 
 import { Layout } from './Layout';
+// import ContactsPage from 'pages/Contacts';
 const MainPage = lazy(() => import('../pages/Main'));
+const OurWorksPage = lazy(() => import('../pages/OurWorks'));
+const PricePage = lazy(() => import('../pages/Price'));
+const MastersPage = lazy(() => import('../pages/Masters'));
+const ContactsPage = lazy(() => import('../pages/Contacts'));
 
 export const App = () => {
   return (
@@ -21,16 +26,11 @@ export const App = () => {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<MainPage />} />
+        <Route path="/our-works" element={<OurWorksPage />} />
+        <Route path="/price" element={<PricePage />} />
+        <Route path="/masters" element={<MastersPage />} />
+        <Route path="/contacts" element={<ContactsPage />} />
         {/* <Route
-          path="/register"
-          element={
-            <RestrictedRoute
-              redirectTo="/contacts"
-              component={<RegisterPage />}
-            />
-          }
-        />
-        <Route
           path="/login"
           element={
             <RestrictedRoute redirectTo="/contacts" component={<LoginPage />} />

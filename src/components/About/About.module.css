@@ -1,0 +1,43 @@
+/**
+  |============================
+  | About section
+  |============================
+*/
+
+.about__container {
+  display: flex;
+}
+
+.about_list {
+  display: flex;
+  margin-right: 64px;
+}
+
+.about_list__item {
+  margin-right: 30px;
+  overflow: hidden;
+}
+
+.about_list__item:last-child {
+  margin-right: 0;
+}
+
+.about_list__img {
+  transition: transform var(--slow-anim);
+}
+
+.about_list__item:hover .about-list__img {
+  transform: scale(1.15);
+}
+
+.about__group {
+  width: 500px;
+}
+
+.about__subtitle {
+  margin-bottom: 20px;
+}
+
+.about__description {
+  margin-bottom: 40px;
+}
