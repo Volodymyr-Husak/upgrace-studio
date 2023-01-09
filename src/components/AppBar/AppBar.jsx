@@ -8,27 +8,28 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
+// import Button from '@mui/material/Button';
+// import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import MdPhone from '@mui/icons-material/Phone';
-import Chip from '@mui/material/Chip';
+// import MdPhone from '@mui/icons-material/Phone';
+// import Chip from '@mui/material/Chip';
 
 import { Icon } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 
 import { LinkEl } from './AppBar.styled';
+import { LinkElMenu } from './AppBar.styled';
 import css from './AppBar.module.css';
-import { ReactSVG } from 'react-svg';
+// import { ReactSVG } from 'react-svg';
 
-import logo from '../../images/logo/logo2.jpg';
+import logo from '../../images/logo/logo.jpg';
 // import phone from './images/icon/sprite.svg#smartphone';
 // import { ReactComponent as PhoneSvg } from '../../images/icons/sprite.svg#smartphone';
-import phone from '../../images/icons/sprite.svg#smartphone';
+// import phone from '../../images/icons/sprite.svg#smartphone';
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { purple } from '@mui/material/colors';
-import { Link } from 'react-router-dom';
+// import { purple } from '@mui/material/colors';
+// import { Link, NavLink } from 'react-router-dom';
 
 const theme = createTheme({
   palette: {
@@ -49,38 +50,43 @@ const theme = createTheme({
 // import AdbIcon from '../../images/logo/logo.jpg';
 // import Avatar from '@mui/material/Avatar';
 
-const pages = ['Наші роботи', 'Прайс', 'Майстри', 'Контакти'];
+// const pages = ['Наші роботи', 'Прайс', 'Майстри', 'Контакти'];
 const pages2 = [
+  { name: 'Головна', path: '/' },
   { name: 'Наші роботи', path: '/our-works' },
   { name: 'Прайс', path: '/price' },
   { name: 'Майстри', path: '/masters' },
   { name: 'Контакти', path: '/contacts' },
 ];
 // console.log()
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+// const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
+  // const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenNavMenu = event => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = event => {
-    setAnchorElUser(event.currentTarget);
-  };
+  // const handleOpenUserMenu = event => {
+  //   setAnchorElUser(event.currentTarget);
+  // };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+  // const handleCloseUserMenu = () => {
+  //   // setAnchorElUser(null);
+  // };
 
   return (
     <ThemeProvider theme={theme}>
-      <AppBar position="static" color="beige">
+      <AppBar
+        // className={css.app_bar}
+        position="static"
+        color="beige"
+      >
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
@@ -90,6 +96,7 @@ function ResponsiveAppBar() {
               sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}
             />
             <Typography
+              className={css.logo}
               variant="h6"
               // variant="body1"
               noWrap
@@ -107,7 +114,6 @@ function ResponsiveAppBar() {
             >
               Upgrace Studio
             </Typography>
-
             <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
               <IconButton
                 size="large"
@@ -142,7 +148,12 @@ function ResponsiveAppBar() {
                     {/* <Typography textAlign="center" >
                       {page}
                     </Typography> */}
-                    <Link to={page.path}>{page.name}</Link>
+                    <LinkElMenu
+                      to={page.path}
+                      // className={css.link_menu}
+                    >
+                      {page.name}
+                    </LinkElMenu>
                   </MenuItem>
                 ))}
               </Menu>
@@ -156,10 +167,11 @@ function ResponsiveAppBar() {
             {/* <img src="../../images/logo/logo.jpg" alt="Logo" width="100" /> */}
             {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
             <Typography
+              className={css.logo}
               variant="h5"
               noWrap
               component="a"
-              href=""
+              href="/upgrace-studio/"
               sx={{
                 mr: 2,
                 display: { xs: 'flex', md: 'none' },
@@ -182,7 +194,9 @@ function ResponsiveAppBar() {
                 // >
                 //   {page}
                 // </Button>
-                <LinkEl to={page.path}>{page.name}</LinkEl>
+                <LinkEl key={page.name} to={page.path}>
+                  {page.name}
+                </LinkEl>
               ))}
             </Box>
             <Box sx={{ display: 'flex' }}>

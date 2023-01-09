@@ -1,7 +1,8 @@
+import OurWorksList from 'components/OurWorksList/OurWorksList';
 export default function OurWorks() {
   return (
-    <div>
-      <h2>OurWorks</h2>
-    </div>
+    <>
+      <OurWorksList />
+    </>
   );
 }

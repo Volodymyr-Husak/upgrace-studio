@@ -1,25 +1,30 @@
+import Button from '@mui/material/Button';
+
 import css from './About.module.css';
+
+import about1 from '../../images/about/about1.jpg';
+import about2 from '../../images/about/about2.jpg';
 // import sdfcss from '../../images/logo/logo.jpg';
 
 function About() {
   return (
-    <section className={'about section'} id="about">
+    <section className="section" id="about">
       <div className={css.about__container}>
-        <ul className={css.about__list}>
+        <ul className={css.about_list}>
           <li className={css.about_list__item}>
             <img
-              className="about-list__img"
-              src="../../images/hero/hero-img_sm.jpg"
-              alt="Бритье бороды"
+              className={css.about_list__img}
+              src={about1}
+              alt="Affggg"
               width="270"
               height="445"
             />
           </li>
           <li className={css.about_list__item}>
             <img
-              className="about-list__img"
-              src="./images/about/img-2.jpg"
-              alt="Бритье опасной бритвой"
+              className={css.about_list__img}
+              src={about2}
+              alt="Fgghhjkkll"
               width="270"
               height="445"
             />
@@ -41,9 +46,15 @@ function About() {
             клиентами "на одной волне". Поэтому, мы всегда готовы
             усовершенствовать каждого, кто к нам приходит!
           </p>
-          <button className="btn btn--mode-light" type="button">
-            онлайн-запись
-          </button>
+
+          <Button
+            // color="beige"
+            className={css.hero__btn}
+            variant="contained"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc3crJ3vJ7TPVaZ_ifq_kYLLXWZ5cj49CRzCQ_fLwg45rtRFg/viewform"
+          >
+            Стати клієнтом
+          </Button>
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import Hero from 'components/Hero/Hero';
-// import About from 'components/About/About';
+import About from 'components/About/About';
 // import Footer from 'components/Footer/Footer';
 // const styles = {
 //   container: {
@@ -19,7 +19,7 @@ export default function Main() {
   return (
     <div>
       <Hero />
-      {/* <About /> */}
+      <About />
       {/* <Footer /> */}
     </div>
   );
