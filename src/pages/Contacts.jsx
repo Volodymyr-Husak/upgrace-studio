@@ -3,7 +3,7 @@ import ContactsInfo from 'components/ContactsInfo/ContactsInfo';
 
 export default function Contacts() {
   return (
-    <div>
+    <div className="content">
       {/* <h2>Contacts</h2> */}
       <ContactsInfo />
       {/* <GoogleMap /> */}

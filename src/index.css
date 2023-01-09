@@ -1,6 +1,9 @@
 @import-normalize; /* bring in normalize.css styles */
-
+/* html {
+  height: 100%;
+} */
 body {
+  /* height: 100%; */
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -50,4 +53,24 @@ picture {
     padding-top: 130px;
     padding-bottom: 130px;
   }
+}
+
+/* .content {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ccc;
+}
+
+.main {
+  flex: 1 1 auto;
+} */
+
+/* .wrapper {
+} */
+
+.content {
+  /* height: 100vh; */
+  /* padding-bottom: 48px; */
+  height: calc(100vh - 112px);
 }

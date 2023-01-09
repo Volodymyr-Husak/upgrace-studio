@@ -17,7 +17,9 @@ import About from 'components/About/About';
 
 export default function Main() {
   return (
-    <div>
+    <div
+    // className="content"
+    >
       <Hero />
       <About />
       {/* <Footer /> */}

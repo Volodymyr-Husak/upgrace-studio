@@ -3,13 +3,33 @@ import { Outlet } from 'react-router-dom';
 import AppBar from './AppBar/AppBar';
 import { Suspense } from 'react';
 import Footer from './Footer/Footer';
+// import css from './'
 
 export const Layout = () => {
   return (
-    <div style={{ maxWidth: 960, margin: '0 auto', padding: '0 16px' }}>
+    <div
+      style={{
+        maxWidth: 1200,
+        margin: '0 auto',
+        padding: '0 16px',
+
+        // height: '100vh',
+        position: 'relative',
+        //wrapper
+        // minHeight: '100%',
+        // display: 'flex',
+        // flexDirection: 'column',
+      }}
+      // className="wrapper"
+    >
       <AppBar />
-      <Suspense fallback={null}>
-        <Outlet />
+      <Suspense fallback={<div>Загрузка...</div>}>
+        <Outlet
+        // style={{
+        //   flex: '1 1 auto',
+        // }}
+        // className="main"
+        />
       </Suspense>
       <Footer />
       {/* <p>FOOTER</p> */}
