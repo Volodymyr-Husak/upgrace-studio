@@ -1,6 +1,9 @@
 import css from './Hero.module.css';
 import Button from '@mui/material/Button';
+// import { Link } from 'react-router-dom';
+// import { Button } from 'semantic-ui-react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+// import { LinkEl } from './Hero.styled';
 // import Link from '@mui/material/Link';
 const theme = createTheme({
   palette: {
@@ -14,10 +17,16 @@ const theme = createTheme({
     // },
     beige: {
       main: 'RGB(143, 110, 106)',
+      // second: 'red',
     },
     // rgb(53, 28, 25)
     blackBeige: {
-      main: 'rgb(53, 28, 25)',
+      main: 'RGB(53, 28, 25)',
+      // second: 'red',
+    },
+    white: {
+      main: '#fff',
+      // second: 'red',
     },
   },
 });
@@ -40,12 +49,23 @@ function Hero() {
         </button> */}
           <Button
             className={css.hero__btn}
-            color="blackBeige"
+            color="beige"
+            //
             variant="contained"
             href="https://docs.google.com/forms/d/e/1FAIpQLSc3crJ3vJ7TPVaZ_ifq_kYLLXWZ5cj49CRzCQ_fLwg45rtRFg/viewform"
           >
             Стати клієнтом
           </Button>
+          {/* <LinkEl
+            // className={css.hero__btn}
+            // color="blackBeige"
+            //
+            // color="black"
+            // variant="contained"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc3crJ3vJ7TPVaZ_ifq_kYLLXWZ5cj49CRzCQ_fLwg45rtRFg/viewform"
+          >
+            Стати клієнтом
+          </LinkEl> */}
           {/* <Link
           href="https://docs.google.com/forms/d/e/1FAIpQLSf-PDy4R3LXe6cwWSz9dPhB3pbcC6ltdKnKXJ2Htnz6be8xMQ/viewform"
           underline="none"

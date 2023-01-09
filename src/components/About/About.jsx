@@ -61,7 +61,7 @@ function About() {
             </p>
 
             <Button
-              color="blackBeige"
+              color="beige"
               className={css.hero__btn}
               variant="contained"
               href="https://docs.google.com/forms/d/e/1FAIpQLSc3crJ3vJ7TPVaZ_ifq_kYLLXWZ5cj49CRzCQ_fLwg45rtRFg/viewform"
