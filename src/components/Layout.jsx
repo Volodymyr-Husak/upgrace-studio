@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import AppBar from './AppBar/AppBar';
 import { Suspense } from 'react';
 import Footer from './Footer/Footer';
+import Loader from './Loader/Loader';
 // import css from './'
 
 export const Layout = () => {
@@ -23,7 +24,8 @@ export const Layout = () => {
       // className="wrapper"
     >
       <AppBar />
-      <Suspense fallback={<div>Загрузка...</div>}>
+      {/* <Loader /> */}
+      <Suspense fallback={<Loader />}>
         <Outlet
         // style={{
         //   flex: '1 1 auto',
