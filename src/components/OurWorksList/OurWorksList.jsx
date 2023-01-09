@@ -22,20 +22,35 @@ import css from './OurWorksList.module.css';
 
 export default function OurWorksList() {
   const [cards, setCards] = useState(designCards);
+  const [cols, setCols] = useState(3);
   const [selectedCards, setSelectedCards] = useState(1);
   // const options = ['Французький-0', 'Дизайн-1', 'Монотонний-2', 'Новорічний-3'];
+  const numberCols = arr => {
+    if (arr.length < 7) {
+      return 2;
+    }
+    return 3;
+  };
 
   useEffect(() => {
     if (selectedCards === 0) {
+      const number = numberCols(frenchCards);
+      setCols(number);
       return setCards(frenchCards);
     }
     if (selectedCards === 1) {
+      const number = numberCols(designCards);
+      setCols(number);
       return setCards(designCards);
     }
     if (selectedCards === 2) {
+      const number = numberCols(monotonousCards);
+      setCols(number);
       return setCards(monotonousCards);
     }
     if (selectedCards === 3) {
+      const number = numberCols(winterCards);
+      setCols(number);
       return setCards(winterCards);
     }
   }, [selectedCards]);
@@ -49,7 +64,7 @@ export default function OurWorksList() {
 
       <ImageList
         sx={{ width: 'auto', height: 'auto' }}
-        cols={3}
+        cols={cols}
         rowHeight="auto"
       >
         {cards.map(card => (
