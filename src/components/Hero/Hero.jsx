@@ -15,6 +15,10 @@ const theme = createTheme({
     beige: {
       main: 'RGB(143, 110, 106)',
     },
+    // rgb(53, 28, 25)
+    blackBeige: {
+      main: 'rgb(53, 28, 25)',
+    },
   },
 });
 function Hero() {
@@ -36,7 +40,7 @@ function Hero() {
         </button> */}
           <Button
             className={css.hero__btn}
-            // color="beige"
+            color="blackBeige"
             variant="contained"
             href="https://docs.google.com/forms/d/e/1FAIpQLSc3crJ3vJ7TPVaZ_ifq_kYLLXWZ5cj49CRzCQ_fLwg45rtRFg/viewform"
           >
