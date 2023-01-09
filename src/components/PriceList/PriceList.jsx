@@ -49,7 +49,7 @@ export default function PriceList() {
 
       <ImageList
         sx={{ width: 'auto', height: 'auto' }}
-        cols={2}
+        cols={1}
         rowHeight="auto"
       >
         {price.map(card => (
