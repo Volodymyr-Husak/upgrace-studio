@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/222.0253a5ef.chunk.js","mappings":"iMAAe,SAASA,IACtB,OACE,0BACE,qCAGL,C","sources":["pages/Masters.jsx"],"sourcesContent":["export default function Masters() {\n  return (\n    <div>\n      <h2>Masters</h2>\n    </div>\n  );\n}\n"],"names":["Masters"],"sourceRoot":""}
