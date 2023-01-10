@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/upgrace-studio/static/css/main.342cd1d7.css",
-    "main.js": "/upgrace-studio/static/js/main.cffbb23e.js",
-    "static/css/836.2d819773.chunk.css": "/upgrace-studio/static/css/836.2d819773.chunk.css",
-    "static/js/836.b5cdddf4.chunk.js": "/upgrace-studio/static/js/836.b5cdddf4.chunk.js",
+    "main.css": "/upgrace-studio/static/css/main.54cc896e.css",
+    "main.js": "/upgrace-studio/static/js/main.717ae5a0.js",
+    "static/css/836.fd7397a2.chunk.css": "/upgrace-studio/static/css/836.fd7397a2.chunk.css",
+    "static/js/836.437701dd.chunk.js": "/upgrace-studio/static/js/836.437701dd.chunk.js",
     "static/css/392.5fce785f.chunk.css": "/upgrace-studio/static/css/392.5fce785f.chunk.css",
     "static/js/392.dab3e79e.chunk.js": "/upgrace-studio/static/js/392.dab3e79e.chunk.js",
     "static/js/122.8ead5f47.chunk.js": "/upgrace-studio/static/js/122.8ead5f47.chunk.js",
@@ -43,10 +43,10 @@
     "static/media/outline-icons.woff": "/upgrace-studio/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/upgrace-studio/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/upgrace-studio/index.html",
-    "main.342cd1d7.css.map": "/upgrace-studio/static/css/main.342cd1d7.css.map",
-    "main.cffbb23e.js.map": "/upgrace-studio/static/js/main.cffbb23e.js.map",
-    "836.2d819773.chunk.css.map": "/upgrace-studio/static/css/836.2d819773.chunk.css.map",
-    "836.b5cdddf4.chunk.js.map": "/upgrace-studio/static/js/836.b5cdddf4.chunk.js.map",
+    "main.54cc896e.css.map": "/upgrace-studio/static/css/main.54cc896e.css.map",
+    "main.717ae5a0.js.map": "/upgrace-studio/static/js/main.717ae5a0.js.map",
+    "836.fd7397a2.chunk.css.map": "/upgrace-studio/static/css/836.fd7397a2.chunk.css.map",
+    "836.437701dd.chunk.js.map": "/upgrace-studio/static/js/836.437701dd.chunk.js.map",
     "392.5fce785f.chunk.css.map": "/upgrace-studio/static/css/392.5fce785f.chunk.css.map",
     "392.dab3e79e.chunk.js.map": "/upgrace-studio/static/js/392.dab3e79e.chunk.js.map",
     "122.8ead5f47.chunk.js.map": "/upgrace-studio/static/js/122.8ead5f47.chunk.js.map",
@@ -56,7 +56,7 @@
     "120.53f9157d.chunk.js.map": "/upgrace-studio/static/js/120.53f9157d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.342cd1d7.css",
-    "static/js/main.cffbb23e.js"
+    "static/css/main.54cc896e.css",
+    "static/js/main.717ae5a0.js"
   ]
 }
