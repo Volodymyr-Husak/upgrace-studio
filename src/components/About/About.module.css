@@ -16,7 +16,8 @@
 
 .about_list {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: space-around;
   margin: 0;
   /* margin-right: 64px; */
   /* margin: 0; */
