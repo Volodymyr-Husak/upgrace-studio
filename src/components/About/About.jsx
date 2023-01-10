@@ -54,7 +54,10 @@ function About() {
               Если ты хочешь добавить в свой образ больше уверенности – тебе
               точно к нам.
             </p>
-            <p className="description about__description">
+            <p
+              // className="description about__description"
+              style={{ marginBottom: '15px' }}
+            >
               Мы команда, которая никогда не останавливается на достигнутом и
               жаждет перемен. И когда ты попадешь в руки нашего мастера, то уже
               никогда не сможешь быть прежним. Мы команда, которая всегда с
@@ -70,7 +73,9 @@ function About() {
             >
               Стати клієнтом
             </Button> */}
-            <BtnReserveForm />
+            <BtnReserveForm
+            // style={{ marginTop: '15' }}
+            />
           </div>
         </div>
       </section>

@@ -72,5 +72,5 @@ picture {
 .content {
   /* height: 100vh; */
   /* padding-bottom: 48px; */
-  height: calc(100vh - 105px);
+  height: calc(100vh - 104px);
 }
