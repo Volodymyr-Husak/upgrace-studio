@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/upgrace-studio/static/css/main.342cd1d7.css",
-    "main.js": "/upgrace-studio/static/js/main.5d3910c9.js",
-    "static/css/836.9e80e330.chunk.css": "/upgrace-studio/static/css/836.9e80e330.chunk.css",
+    "main.js": "/upgrace-studio/static/js/main.cffbb23e.js",
+    "static/css/836.2d819773.chunk.css": "/upgrace-studio/static/css/836.2d819773.chunk.css",
     "static/js/836.b5cdddf4.chunk.js": "/upgrace-studio/static/js/836.b5cdddf4.chunk.js",
     "static/css/392.5fce785f.chunk.css": "/upgrace-studio/static/css/392.5fce785f.chunk.css",
     "static/js/392.dab3e79e.chunk.js": "/upgrace-studio/static/js/392.dab3e79e.chunk.js",
@@ -44,8 +44,8 @@
     "static/media/outline-icons.woff2": "/upgrace-studio/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/upgrace-studio/index.html",
     "main.342cd1d7.css.map": "/upgrace-studio/static/css/main.342cd1d7.css.map",
-    "main.5d3910c9.js.map": "/upgrace-studio/static/js/main.5d3910c9.js.map",
-    "836.9e80e330.chunk.css.map": "/upgrace-studio/static/css/836.9e80e330.chunk.css.map",
+    "main.cffbb23e.js.map": "/upgrace-studio/static/js/main.cffbb23e.js.map",
+    "836.2d819773.chunk.css.map": "/upgrace-studio/static/css/836.2d819773.chunk.css.map",
     "836.b5cdddf4.chunk.js.map": "/upgrace-studio/static/js/836.b5cdddf4.chunk.js.map",
     "392.5fce785f.chunk.css.map": "/upgrace-studio/static/css/392.5fce785f.chunk.css.map",
     "392.dab3e79e.chunk.js.map": "/upgrace-studio/static/js/392.dab3e79e.chunk.js.map",
@@ -57,6 +57,6 @@
   },
   "entrypoints": [
     "static/css/main.342cd1d7.css",
-    "static/js/main.5d3910c9.js"
+    "static/js/main.cffbb23e.js"
   ]
 }
