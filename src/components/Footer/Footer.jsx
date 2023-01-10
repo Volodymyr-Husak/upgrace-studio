@@ -17,7 +17,7 @@ function Footer() {
           </a>
         </li>
         <li className={css.footer_list_address__item}>
-          <a href="tel:+380938452445">
+          <a href="tel:+380972137860">
             <Icon name="phone" size="big" link color="black" />
           </a>
         </li>
