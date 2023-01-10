@@ -1,4 +1,6 @@
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
+
+import { BtnReserveForm } from 'components/BtnReserveForm/BtnReserveForm';
 
 import css from './About.module.css';
 
@@ -60,14 +62,15 @@ function About() {
               усовершенствовать каждого, кто к нам приходит!
             </p>
 
-            <Button
+            {/* <Button
               color="beige"
               className={css.hero__btn}
               variant="contained"
               href="https://docs.google.com/forms/d/e/1FAIpQLSc3crJ3vJ7TPVaZ_ifq_kYLLXWZ5cj49CRzCQ_fLwg45rtRFg/viewform"
             >
               Стати клієнтом
-            </Button>
+            </Button> */}
+            <BtnReserveForm />
           </div>
         </div>
       </section>
