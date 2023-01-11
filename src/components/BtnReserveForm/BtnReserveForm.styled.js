@@ -10,6 +10,7 @@ export const BtnReserve = styled.button`
   color: white;
   cursor: pointer;
   background-color: rgb(53, 28, 25);
+  border: 0;
 
   &:focus {
     scale: 1.1;
