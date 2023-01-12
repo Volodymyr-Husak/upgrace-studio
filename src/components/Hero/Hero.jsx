@@ -30,7 +30,8 @@ function Hero() {
             A hair salon for men in Kyiv
           </p> */}
           <h1 className={css.hero__title}>
-            Студія манікюру, <br />у яку завжди повертаються
+            Студія манікюру, 111111
+            <br />у яку завжди повертаються
           </h1>
           {/* <button className={css.hero__btn} type="button" data-modal-open>
           Замовити послугу
